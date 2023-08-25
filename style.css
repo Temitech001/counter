@@ -1,0 +1,61 @@
+:root {
+  --Very-dark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(220, 14%, 75%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+}
+
+body {
+  position: relative;
+  background-color: #f0f3f5;
+  margin: 0;
+  padding: 0;
+  font-family: 'roboto', sans-serif;
+  /* background-color: var(--Pale-orange); */
+}
+
+.container {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+#decrease {
+  border: 2px solid;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 12px;
+}
+
+#increase {
+  border: 2px solid;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#reset {
+  border: 2px solid;
+  border-radius: 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 12px;
+}
+
+.btn {
+  display: flex;
+  justify-content: end;
+}
